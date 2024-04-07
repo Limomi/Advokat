@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Главное</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__logo">
+                    <img src="img/logo.svg" alt="Лого" class="logo__img">
+                </div>
+                <div class="header__search">
+                    <img src="img/search.svg" alt="Поиск" class="search__img">
+                    <input type="text" class="search__input" placeholder="Поиск" oninput="search()">
+                    <div class="search__items">
+                        
+                    </div>
+                </div>
+                <div class="header__notice">
+                    <a href="#" class="notice__a">
+                        <img src="img/shape.svg" alt="Уведомления" class="notice__img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+        <main class="main">
+            <div class="container">
+                <div class="fastHelp">
+                    <div class="fastHelp__row">
+                        <div class="fastHelp__row__img">
+                            <img src="img/help.svg" alt="Признак профессионализма" class="fastHelp__row__image">
+                        </div>
+                        <div class="fastHelp__row__txt">
+                            <h2 class="fastHelp__row__txt__h2">
+                                Нужна срочная помощь?
+                            </h2>
+                            <div class="fastHelp__row__txt__txt">
+                                Мы на связи в любое время, чтобы помочь вам!
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="fastHelp__a">
+                        <div class="fastHelp__a__txt">
+                            Позвонить нам
+                        </div>
+                        <img src="img/phone.svg" alt="телефон" class="fastHelp__a__img">
+                    </a>
+                </div>
+                <div class="situatiom">
+                    <h2 class="situatiom__h2">
+                        Ситуации наших последних клиентов
+                    </h2>
+                    <marquee class="situatiom__move">
+                        <div class="situatiom__row">
+                            <div class="situatiom__row__el1">
+                                <div class="situatiom__row__el">
+                                    <h3 class="situatiom__row__el__h3">
+                                        Развод
+                                    </h3>
+                                    <div class="situatiom__row__el__txt">
+                                        С нами это легко
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="situatiom__row__el2">
+                                <div class="situatiom__row__el">
+                                    <h3 class="situatiom__row__el__h3">
+                                        Банкротство
+                                    </h3>
+                                    <div class="situatiom__row__el__txt">
+                                        С нами это легко
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="situatiom__row__el1">
+                                <div class="situatiom__row__el">
+                                    <h3 class="situatiom__row__el__h3">
+                                        Развод
+                                    </h3>
+                                    <div class="situatiom__row__el__txt">
+                                        С нами это легко
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="situatiom__row__el2">
+                                <div class="situatiom__row__el">
+                                    <h3 class="situatiom__row__el__h3">
+                                        Банкротство
+                                    </h3>
+                                    <div class="situatiom__row__el__txt">
+                                        С нами это легко
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </marquee>
+                </div>
+                <div class="сonsultation">
+                    <img src="img/consultation.svg" alt="Консультант" class="consultation__img">
+                    <h2 class="consultation__h2">
+                        Мы всегда на связи и готовы помочь вам
+                    </h2>
+                    <div class="consultation__txt">
+                        Готовы проконсультировать вас
+                    </div>
+                    <div class="consultation__limkDiv">
+                        <a href="#" class="consultation__a">
+                            Мне нужна Консультанция
+                        </a>
+                    </div>
+                </div>
+                <div class="services">
+                    <h2 class="services__h2">
+                        Наши услуги
+                    </h2>
+                    <div class="services__cardsWhite">
+                        <div class="services__cards__el">
+                            <img src="img/servises1.svg" alt="Ситуация" class="services__cards__el__img">
+                            <h3 class="services__cards__el__h3">
+                                Ситуации
+                            </h3>
+                            <div class="services__cards__el__txt">
+                                в судебной практике
+                            </div>
+                        </div>
+                        <div class="services__cards__el">
+                            <img src="img/servises2.svg" alt="Ситуация" class="services__cards__el__img">
+                            <h3 class="services__cards__el__h3">
+                                Вопрос ответ
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="services__cards">
+                        <div class="services__cards__el">
+                            <img src="img/servises3.svg" alt="Ситуация" class="services__cards__el__img">
+                            <h3 class="services__cards__el__h3">
+                                Документы
+                            </h3>
+                        </div>
+                        <div class="services__cards__el">
+                            <img src="img/servises4.svg" alt="Ситуация" class="services__cards__el__img">
+                            <h3 class="services__cards__el__h3">
+                                Справочник
+                            </h3>
+                            <div class="services__cards__el__txt">
+                                нужной информации
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news">
+                    <div class="news__header">
+                        <h2 class="news__header__h2">Новости</h2>
+                        <a href="#" class="news__header__a">Читать все</a>
+                    </div>
+                    <div class="news__menu">   
+                        <div class="news__menu__el">
+                            <a href="#" class="news__menu__el__a">
+                                <div class="news__menu__el__img1">
+
+                                </div>
+                                <div class="news__menu__el__txt">
+                                    <h3 class="news__menu__el__txt__h3">
+                                        Кредитные организации
+                                    </h3>
+                                    <div class="news__menu__el__txt__maintxt">
+                                        Банкам нельзя с 1 июля требовать от компаний, ИП и физлиц повышенные комиссии...   
+                                    </div>
+                                    <div class="news__menu__el__txt__date">
+                                        25 апреля
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="news__menu__el">
+                            <a href="#" class="news__menu__el__a">
+                                <div class="news__menu__el__img2">
+
+                                </div>
+                                <div class="news__menu__el__txt">
+                                    <h3 class="news__menu__el__txt__h3">
+                                        Кредитные организации
+                                    </h3>
+                                    <div class="news__menu__el__txt__maintxt">
+                                        Банкам нельзя с 1 июля требовать от компаний, ИП и физлиц повышенные комиссии...
+                                    </div>
+                                    <div class="news__menu__el__txt__date">
+                                        25 апреля
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="news__menu__el">
+                            <a href="#" class="news__menu__el__a">
+                                <div class="news__menu__el__txt">
+                                    <h3 class="news__menu__el__txt__h3">
+                                        Кредитные организации
+                                    </h3>
+                                    <div class="news__menu__el__txt__maintxt">
+                                        Банкам нельзя с 1 июля требовать от компаний, ИП и физлиц повышенные комиссии...
+                                    </div>
+                                    <div class="news__menu__el__txt__date">
+                                        25 апреля
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <a href="index.html" class="footer__row__elActiv">
+                        <div class="footer__row__elActiv__imgDiv">
+                            <img src="img/footer1.svg" alt="Главная" class="footer__row__elActiv__imgDiv__image">
+                        </div>
+                        <div class="footer__row__elActiv__txt">
+                            Главная
+                        </div>
+                    </a>
+                    <a href="#" class="footer__row__el">
+                        <div class="footer__row__el__imgDiv">
+                            <img src="img/footer2.svg" alt="Главная" class="footer__row__el__imgDiv__image">
+                        </div>
+                        <div class="footer__row__el__txt">
+                            Сервисы
+                        </div>
+                    </a>
+                    <a href="#" class="footer__row__el">
+                        <div class="footer__row__el__imgDiv">
+                            <img src="img/footer3.svg" alt="Главная" class="footer__row__el__imgDiv__image">
+                            <div class="footer__row__el__imgDiv__notice">
+                                4
+                            </div>
+                        </div>
+                        <div class="footer__row__el__txt">
+                            Обращения
+                        </div>
+                    </a>
+                    <a href="#" class="footer__row__el">
+                        <div class="footer__row__el__imgDiv">
+                            <img src="img/footer4.svg" alt="Главная" class="footer__row__el__imgDiv__image">
+                        </div>
+                        <div class="footer__row__el__txt">
+                            Звонок
+                        </div>
+                    </a>
+                    <a href="#" class="footer__row__el">
+                        <div class="footer__row__el__imgDiv">
+                            <img src="img/footer5.svg" alt="Главная" class="footer__row__el__imgDiv__image">
+                        </div>
+                        <div class="footer__row__el__txt">
+                            Профиль
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    <script src="js.js"></script>
+</body>
+</html>

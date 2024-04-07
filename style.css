@@ -1,0 +1,461 @@
+
+@font-face {
+    font-family: "Stem";
+    font-style: normal;
+    src: local("Stem"), url("/fonts/Stem-Medium.woff2") format("woff2"), local("/fonts/Stem-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Stem";
+    font-style: bold;
+    src: local("Stem"), url("/fonts/Stem-Bold.woff2") format("woff2"), local("/fonts/Stem-Bold.woff") format("woff");
+}
+
+
+
+body{
+    background-color: rgb(250, 250, 251);
+    
+}
+
+.container{
+    width: 700px;
+    margin: auto;
+}
+
+/* Стили header */
+
+.header{
+    margin-bottom: 40px;
+}
+
+.header__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.header__search{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 24px;
+    position: relative;
+}
+
+.search__items{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 28px;
+    background-color: #fff;
+    text-decoration: none;
+    color:  black;
+}
+
+.search__item__a{
+    display: block;
+    text-decoration: none;
+    color:  black;
+    height: 25px;
+    border-bottom: 1px solid rgb(130, 130, 130);
+}
+
+.search__item__a__txt{
+    margin-top: 6px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Stem", normal, sans-serif;
+    align-items: center;
+}
+
+.logo__img{
+    width: 40px;
+    height: 40px;
+}
+
+.search__img{
+    width: 24px;
+    height: 24px;
+}
+
+.search__input{
+    font-size: 20px;
+    border: 0px;
+    font-family: "Stem", normal, sans-serif;
+}
+
+.notice__img{
+    width: 18px;
+    height: 19.5px;
+}
+
+/* Блок помощи */
+
+.fastHelp{
+    margin-top: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(211, 226, 231);
+    border-radius: 16px;
+}
+
+.fastHelp__row{
+    display: flex;
+    background-color: rgb(211, 226, 231);
+}
+
+.fastHelp__row__img{
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.fastHelp__row__image{
+    padding: 0px;
+    width: 86.95px;
+    height: 91.96px;
+    display: block;
+    margin: auto;
+    margin-top: -35px;
+    margin-bottom: -5px;
+}
+
+.fastHelp__row__txt__h2{
+    font-size: 16px;
+    font-family: "Stem", bold, sans-serif;
+}
+
+.fastHelp__row__txt__txt{
+    margin-top: 4px;
+    font-family: "Stem", normal, sans-serif;
+    font-size: 12px;
+    background-color: rgb(211, 226, 231);
+}
+
+.fastHelp__row__txt{
+    background-color: rgb(211, 226, 231);
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.fastHelp__a{
+    display: flex;
+    justify-content: center;
+    background-color: #04B6F5;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 24px;
+}
+
+.fastHelp__a__txt{
+    font-family: "Stem", normal, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color:  rgb(250, 250, 251);
+}
+
+.fastHelp__a__img{
+    width: 15.3px;
+    height: 20.1;
+    margin-left: 16.25px;
+}
+
+/* стили ситуации */
+
+.situatiom__h2{
+    font-family: "Stem", bold, sans-serif;
+    font-size: 14px;
+}
+
+.situatiom__row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.situatiom__row__el1{
+    background-image: url("img/situation1.svg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.situatiom__row__el2{
+    background-image: url("img/situation2.svg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.situatiom__row__el{
+    background: linear-gradient(to bottom right, rgba(43, 58, 76, 0.83), rgba(4, 182, 245, 0.63));
+    position: relative;
+    width: 120px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.situatiom__row__el__h3{
+    font-size: 14px;
+    font-family: "Stem", bold, sans-serif;
+    margin-bottom: 22px;
+    margin-left: 6px;
+    position: absolute;
+    bottom: 0px;
+    color: rgb(250, 250, 251);
+}
+
+.situatiom__row__el__txt{
+    font-family: "Stem", normal, sans-serif;
+    font-size: 12px;
+    margin: 0px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    position: absolute;
+    bottom: 0px;
+    color: rgb(250, 250, 251);
+}
+
+/* Стили мне нужна консультация */
+
+.сonsultation{
+    border-radius: 16px;
+    background-color:rgb(230, 245, 251) ;
+    border:3px solid rgba(4, 182, 245, 0.16);
+    padding: 24px;
+}
+
+.consultation__img{
+    width: 217.64px;
+    height: 163px;
+    display: block;
+    margin: auto;
+    margin-top: -40px;
+}
+
+.consultation__h2{
+    font-size: 18px;
+    font-family: "Montserrat", bold, sans-serif;
+    margin-top: 20px;
+}
+
+.consultation__txt{
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Montserrat", normal, sans-serif;
+    font-size: 13px;
+}
+
+.consultation__limkDiv{
+    
+    padding-top: 20px;
+}
+
+.consultation__a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Montserrat", bold, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    background-color: rgba(4, 182, 245, 1);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 37.5px;
+    padding-right: 37.5px;
+    border-radius: 24px;
+}
+
+/* Улуги */
+
+.services__h2{
+    font-family: "Stem", bold, sans-serif;
+    font-size: 16px;
+}
+
+.services__cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__cardsWhite{
+    display: flex;
+    justify-content: space-between;
+    background-color:#fff ;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.services__cards__el{
+    padding: 12px;
+    width: 134px;
+    height: 86px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.services__cards__el__img{
+    width: 38px;
+    height: 38px;
+}
+
+.services__cards__el__h3{
+    font-size: 14px;
+    font-family: "Stem", bold, sans-serif;
+}
+
+.services__cards__el__txt{
+    font-size: 12px;
+    font-family: "Stem", normal, sans-serif;
+    color: rgb(130, 130, 130);
+}
+
+/* стили новостей */
+
+.news__header{
+    padding-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news__header__h2{
+    font-size: 16px;
+    font-family: "Stem", bold, sans-serif;
+}
+
+.news__header__a{
+    font-size: 14px;
+    font-family: "Stem", bold, sans-serif;
+    text-decoration: none;
+    color: #04B6F5;
+}
+
+.news__menu__el{
+    padding: 12px;
+    color: #fff;
+    border-radius: 16px;
+}
+
+.news__menu__el__a{
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.news__menu__el__img1{
+    width: 90px;
+    height: 90px;
+    background-image: url("img/news1.png");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.news__menu__el__img2{
+    width: 90px;
+    height: 90px;
+    background-image: url("img/news2.png");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.news__menu__el__txt__h3{
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.94);
+    font-family: "Stem", bold, sans-serif;
+    font-size: 14PX;
+}
+
+.news__menu__el__txt__maintxt{
+    color: rgba(34, 34, 34, 0.6);
+    font-family: "Stem", normal, sans-serif;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    font-size: 12PX;
+}
+
+.news__menu__el__txt__date{
+    color: rgba(0, 0, 0, 0.94);
+    font-family: "Stem", bold, sans-serif;
+        font-size: 10PX;
+}
+
+/* Стили футера */
+
+.footer__row{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__row__elActiv{
+    display: block;
+    text-decoration: none;
+}
+
+.footer__row__el{
+    text-decoration: none;
+}
+
+
+.footer__row__el__imgDiv__image{
+    display: block;
+    margin: auto;
+    width: 24px;
+    height: 24px;
+}
+
+.footer__row__elActiv__imgDiv__image{
+    display: block;
+    margin: auto;
+    width: 24px;
+    height: 24px;
+}
+
+.footer__row__elActiv__txt{
+    color: #04B6F5;
+    font-size: 12px;
+    font-family:  "Stem", normal, sans-serif;
+}
+
+.footer__row__el__txt{
+    color: rgba(34, 34, 34, 0.6);
+    font-size: 12px;
+    font-family:  "Stem", normal, sans-serif;
+}
+
+.footer__row__el__imgDiv{
+    display: flex;
+}
+
+.footer__row__el__imgDiv__notice{
+    background-color: #FF3B30;
+    color: #fff;
+    font-size: 10px;
+    font-family:  "Stem", bold, sans-serif;
+    padding-top: 4px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 66px;
+
+}
+
+@media(max-width:480px){
+    .container{
+        width: 450px;
+    }
+}
+
+@media(max-width:320px){
+    .container{
+        width: 300px;
+    }
+}
